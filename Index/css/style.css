@@ -1,0 +1,139 @@
+/*  This is a comment in CSS  */
+			
+			h1 {
+				font-size: 48px;
+				text-decoration: underline;
+				font-family: papyrus;
+				font-weight: bold;
+				margin-left: 10px;
+			}
+			
+			h2 {
+				font-size: 36px;
+				text-decoration: underline;
+				font-family: garamond;
+				text-shadow: 0px 0px 3px black;
+			}
+		
+			li {
+				font-size: 16px;
+				font-weight: 800;
+			}
+						
+			.orange_text {
+				color: orange;
+				color: #FFCA00FF;
+				color: rgba(255, 125, 0, 100%);
+				color: hsla(30, 100%, 50%, 100%);
+			}
+			
+			/* This makes text have small caps */
+			.small_cap_letter {
+				font-variant: small-caps;
+			}
+			
+			.large_text {
+				font-size: 48px;
+			}
+			
+			.doc_header {
+				width: 75%;
+				/* line width, line type, color */
+				border: 5px solid black;
+				margin-bottom: 30px;
+				margin-left: 30px;
+				min-height: 100px;
+			}
+			
+			.doc_body {
+				width: 100%;
+				color: crimson;
+				border: 5px solid crimson;
+				/*background-color: crimson;*/
+			}
+			
+			.heavy_border {
+				/*border: 5px dashed orange;*/
+				
+				margin-right: 30px;
+			}
+			
+			.inner_picture {
+				border: 2px solid green;
+				width: 100px;
+			}
+			
+			.small_img {
+				max-width: 100px;
+			}
+			
+			.inner_video {
+				width: 300px;
+			}
+			
+			.float_L {
+				float: right;
+				margin-left: 5px;
+			}
+			
+			.flex_container {
+				display: flex;
+				background-color: #CCCCCC;
+				justify-content: center;
+				flex-direction: row;
+				border: 1px solid black;
+			}
+		
+			.flex_container div {
+				background-color: #DDDDDD;
+				padding: 10px;
+				margin: 10px;
+				border: 1px solid black;
+			}
+			/*
+				.flex_child {
+				background-color: #DDDDDD;
+				padding: 5px;
+				margin: 5px;
+				border: 1px solid black;
+			}
+			*/
+			table {
+				color: #000000;
+				border: 2px solid #000000;
+				padding: 5px;
+				margin: 15px;
+			}
+			tr {
+				border: 2px solid #000000;
+			}
+			td {
+				border: 2px dashed #000000;
+				background-color: #CDCDCD;
+				padding: 5px;
+				text-align: center;
+			}
+			th {
+				background-color: #999999;
+				border: 2px solid #000000;
+			}
+			.yellow {
+				background-color: yellow;
+			}
+			.red {
+				background-color: red;
+			}
+			
+			.rounded { 
+			border: 2px dashed orange;
+			margin 5px; border-radius: 25px;}
+			.ball {background-color: crimson;
+			width:50x;
+			height:50x;
+			border-radius; 50%;
+			border: 5px soild black; }
+			.bg_image {
+			background-image: url('../images/bricks.png'); }  
+			
+			
+			
